@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at top right, #dbeafe 0%, #f8fafc 40%, #eef2ff 100%);
+}
